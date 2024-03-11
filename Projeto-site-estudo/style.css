@@ -1,0 +1,210 @@
+/* Estilo Geral */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ 
+ }
+ 
+ body{
+     height: 100vh;
+ }
+ 
+ .interface{
+     max-width: 1280px;
+     margin: 0 auto;
+ 
+ }
+ .flex{
+     display: flex;
+ }
+ 
+ .btn-contato button{
+     padding: 10px 40px;
+     font-size: 18px;
+     font-weight: 500;
+     background-color:#979797;
+     border: 0;
+     border-radius: 20px;
+     cursor: pointer;
+     color: #fff;
+     transition: .2s; 
+ }
+ 
+ h2.titulo{
+     color: #fff;
+     font-size: 35px;
+     text-align: center;
+ }
+ 
+ h2.titulo span{
+   color: rgba(124, 13, 13, 0.855);  
+   font-size: 35px;
+ }
+ 
+ /* Estilo do Cabeçalho */
+ header{
+     padding: 10px 4%;
+     background-color: rgba(124, 13, 13, 0.855);
+ }
+ 
+ header > .interface{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ header a{
+     color: #fff;
+     text-decoration: none;
+     display: inline-block;
+     transition: .2s;
+ }
+ 
+ header a:hover{
+     color: rgba(79, 5, 5, 0.855);
+     transform: scale(1.05);
+ }
+ 
+ header nav ul{
+     list-style-type: none;
+ 
+ }
+ 
+ header nav ul li{
+     display: inline-block;
+     padding: 0 40px;
+ }
+ 
+ .btn-contato button:hover{
+     box-shadow: 0px 0px 8px #868686;
+     transform: scale(1.05);
+ }
+ /* Estilo do topo do site */
+ section.topo-site{
+     background-image: url(Imagens/luke-michael-DUV8TJtD2QY-unsplash.jpg);
+     background-size: cover;
+     height: 700px;
+     padding: 40px 4%;
+ }
+ section.topo-site .flex{
+     align-items: center;
+     justify-content: center;
+     gap: 100px;
+ }
+ 
+ .topo-site h1{
+     margin-top: 220px;
+     color: rgba(124, 13, 13, 0.855);
+     font-size: 40px;
+ }
+ 
+ .topo-site .txt-topo-site h1 span{
+     color:#868686;
+     font-size: 50px;
+ }
+ 
+ .topo-site .txt-topo-site p{
+     color: #868686;
+     font-weight: 100px;
+     margin: 10px 0;
+     margin-right: 400px;
+     text-align: justify;
+ }
+ /* Estilo das Especialidades */
+ section.especialidades{
+     padding: 40px 4%;
+     background-color: #bbbbbb;
+ }
+ 
+ section.especialidades .flex{
+     gap: 60px
+ }
+ 
+ .especialidades .especial-box{
+     color: #fff;
+     padding: 40px;
+     border-radius: 20px;
+     margin-top: 45px;
+     transition: .2s;
+ }
+ 
+ .especialidades .especial-box:hover{
+     transform: scale(1.05);
+     box-shadow: 0 0 10px #fff;
+ }
+ 
+ .especialidades .especial-box i{
+     font-size: 50px;
+ }
+ 
+ .especialidades .especial-box h3{
+     color: rgba(124, 13, 13, 0.855);
+     font-size: 20px;
+     margin: 15px 0;
+ }
+ 
+ section.especialidades::after{
+     content: " ";
+     position: absolute;
+     left: 0;
+     height: 5px;
+     display: block;
+     height: 1.5px;
+     width: 50%;
+     margin-left: 380px;
+     background-color: #fff;
+     margin-top: 50px;
+ }
+ /* Estilo do Sobre */
+ section.sobre{
+     background-color: #bbbbbb;
+     padding: 40px 4%;
+ }
+ 
+ section.sobre .flex{
+     margin-top: 50px;
+     align-items: center;
+     gap: 60px;
+ }
+ 
+ .sobre .txt-sobre h2{
+     font-size: 35px;
+     color: rgba(124, 13, 13, 0.855);
+     line-height: 40px;
+     margin-bottom: 25px;
+ }
+ 
+ .sobre .txt-sobre h2 span{
+     color: #fff;
+     display: block;
+ 
+ }
+ 
+ .sobre .txt-sobre p{
+     margin: 15px 0;
+     color: #fff;
+     text-align: justify;
+ }
+ 
+ .sobre .txt-sobre .btn-social button{
+     width: 50px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     background-color: rgba(124, 13, 13, 0.855);
+     color: #fff;
+     font-size: 22px;
+     cursor: pointer;
+     margin: 0 6px;
+     transition: .2s;
+ }
+ .btn-social button:hover{
+     box-shadow: 0px 0px 10px #500e0e;
+     transform: scale(1.05);
+ }
+ 
+ .sobre .txt-sobre .btn-social button i{
+     font-size: 28px;
+ }
