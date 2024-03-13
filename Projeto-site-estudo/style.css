@@ -39,7 +39,7 @@
  }
  
  h2.titulo span{
-   color: rgba(124, 13, 13, 0.855);  
+   color: #7c0d0dda;  
    font-size: 35px;
  }
  
@@ -208,3 +208,44 @@
  .sobre .txt-sobre .btn-social button i{
      font-size: 28px;
  }
+ section.sobre::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    height: 5px;
+    display: block;
+    height: 1.5px;
+    width: 50%;
+    margin-left: 380px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+ /* Estilo mapa */
+ section.mapa{
+    background-color: #bbbbbb;
+    padding: 40px 4%; 
+ }
+ section.mapa h2{
+    color: rgba(124, 13, 13, 0.855);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+ }
+ .mapa .mapa-box{
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 45px;
+    transition: .2s;
+    margin: 0 20px;
+}
+
+.mapa .mapa-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+}
+
+.mapa .mapa-box i{
+    font-size: 30px;
+    color: #500e0e;
+}
